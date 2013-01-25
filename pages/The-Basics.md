@@ -14,7 +14,7 @@ problem stems from strict comparisons (the comparison of booleans as integers).
 <?php
 $a = 5;   // 5 as an integer
 
-var_dump($a == 5);       // compare value; return true
+var_dump($a == 5);       // compare value; return true if true, false if false
 var_dump($a == '5');     // compare value (ignore type); return true
 var_dump($a === 5);      // compare type/value (integer vs. integer); return true
 var_dump($a === '5');    // compare type/value (integer vs. string); return false
